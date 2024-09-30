@@ -1,2 +1,7 @@
 # Doula-Registry
-A collection web-scraped and/or API fetch request codes, and data for Doulas in the United States.
+| State | Progress | Links | Contributor |
+|----------|----------|----------|----------|
+| Minnesota | In progress | [Link](https://www.health.state.mn.us/facilities/providers/doula/registry.html) | Sauryanshu |
+| Michigan | In progress | | Aavash |
+
+
