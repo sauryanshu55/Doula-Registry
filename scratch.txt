@@ -1,85 +1,5 @@
 <div class="field field--name-body field--type-text-with-summary field--label-hidden">
  <div class="field__item">
-  <style type="text/css">
-   ol ol {
-        list-style-type: lower-latin;
-    }
-  </style>
- </div>
-</div>
-
-<div class="field field--name-body field--type-text-with-summary field--label-hidden">
- <div class="field__item">
-  <h2>
-   Doula Registry
-  </h2>
-  <ul>
-   <li>
-    <a href="/facilities/providers/doula/index.html">
-     Doula Registry Home
-    </a>
-   </li>
-   <li>
-    <a href="/facilities/providers/doula/certorgs.html">
-     Doula Certification Organizations
-    </a>
-   </li>
-   <li>
-    <a href="/facilities/providers/doula/registry.html">
-     Registered Doulas
-    </a>
-   </li>
-  </ul>
-  <h2>
-   Related Sites
-  </h2>
-  <ul>
-   <li>
-    <a href="/facilities/index.html">
-     Health Care Facilities, Providers and Insurance
-    </a>
-   </li>
-  </ul>
- </div>
-</div>
-
-<div class="field field--name-body field--type-text-with-summary field--label-hidden">
- <div class="field__item">
-  <h2>
-   Doula Registry
-  </h2>
-  <ul>
-   <li>
-    <a href="/facilities/providers/doula/index.html">
-     Doula Registry Home
-    </a>
-   </li>
-   <li>
-    <a href="/facilities/providers/doula/certorgs.html">
-     Doula Certification Organizations
-    </a>
-   </li>
-   <li>
-    <a href="/facilities/providers/doula/registry.html">
-     Registered Doulas
-    </a>
-   </li>
-  </ul>
-  <h2>
-   Related Sites
-  </h2>
-  <ul>
-   <li>
-    <a href="/facilities/index.html">
-     Health Care Facilities, Providers and Insurance
-    </a>
-   </li>
-  </ul>
- </div>
-</div>
-
-<div class="field field--name-body field--type-text-with-summary field--label-hidden">
- <div class="field__item">
   <h1>
    Registered Doulas
   </h1>
@@ -6973,43 +6893,6 @@
     ]
    </strong>
   </p>
- </div>
-</div>
-
-<div class="field field--name-body field--type-text-with-summary field--label-hidden">
- <div class="field__item">
-  <div class="clearfix mx-lg-5 px-lg-5">
-   <div class="mx-5 my-1 col-lg-4 col-sm-12 mx-auto float-left">
-    <a href="/about/privacy.html">
-     Privacy Policy
-    </a>
-   </div>
-   <div class="mx-5 my-1 col-lg-4 col-sm-12 mx-auto float-left">
-    <a href="/about/equalopp.html">
-     Equal Opportunity
-    </a>
-   </div>
-   <div class="mx-5 my-1 col-lg-4 col-sm-12 mx-auto float-left">
-    <a href="/communities/translation/index.html">
-     Translated Materials
-    </a>
-   </div>
-   <div class="mx-5 my-1 col-lg-4 col-sm-12 mx-auto float-left">
-    <a href="/form/feedback-form">
-     Feedback Form
-    </a>
-   </div>
-   <div class="mx-5 my-1 col-lg-4 col-sm-12 mx-auto float-left">
-    <a href="/about/index.html">
-     About MDH
-    </a>
-   </div>
-   <div class="mx-5 my-1 col-lg-4 col-sm-12 mx-auto float-left">
-    <a href="https://mn.gov/portal/">
-     Minnesota.gov
-    </a>
-   </div>
-  </div>
  </div>
 </div>
 
