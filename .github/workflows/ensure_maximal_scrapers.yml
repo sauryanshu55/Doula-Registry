@@ -15,7 +15,7 @@ jobs:
       # Data should span all 50 states ideally
       - name: Count files in directory
         run: |
-          FILE_COUNT=$(ls -1 your_directory_path | wc -l)
+          FILE_COUNT=$(ls -1 "scrapers/data" | wc -l)
           if [ "$FILE_COUNT" -ne 50 ]; then
             echo "::warning::There are $FILE_COUNT files in the directory, but 50 are expected (all US states)."
           fi
