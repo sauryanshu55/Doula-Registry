@@ -1,0 +1,21 @@
+name: Check for 50 US in data directory
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      # Data should span all 50 states ideally
+      - name: Count files in directory
+        run: |
+          FILE_COUNT=$(ls -1 your_directory_path | wc -l)
+          if [ "$FILE_COUNT" -ne 50 ]; then
+            echo "::warning::There are $FILE_COUNT files in the directory, but 50 are expected (all US states)."
+          fi
