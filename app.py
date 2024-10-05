@@ -19,6 +19,6 @@ if __name__ == "__main__":
         result = subprocess.run(["python3", f"{scraper_dir}/{state_scraper}"])
         result.check_returncode()
 
-        # assert os.path.exists(f"{data_dir}/{state_scraper.replace('.py', '')}.csv")
+        assert os.path.exists(f"{data_dir}/{state_scraper.replace('.py', '')}.csv")
 
     print("All files executed.")
