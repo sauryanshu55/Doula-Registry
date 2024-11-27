@@ -1,14 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
-import utils.utilities as u
+import utils.utilities as util
 
-url = 'https://www.health.state.mn.us/facilities/providers/doula/registry.html'
-response = requests.get(url)
-html_content = response.content
+is_parsed = True # Set to True, if already parsed.
+soup = None
 
-soup = BeautifulSoup(html_content, 'html.parser')
+if not is_parsed:
+    url = 'https://www.health.state.mn.us/facilities/providers/doula/registry.html'
+    response = requests.get(url)
+    html_content = response.content
+    soup = BeautifulSoup(html_content, 'html.parser')
+else:
+    with open('scrapers/content/mn.txt', 'r') as html_content:
+        soup = BeautifulSoup(html_content.read(), 'html.parser')
 
 filter_1 = soup.find_all('div', class_='field field--name-body field--type-text-with-summary field--label-hidden')
+
 # Filter to the third index of the given class
 filter_2 = filter_1[3] 
 
