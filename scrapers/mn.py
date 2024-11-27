@@ -21,12 +21,10 @@ filter_2 = filter_1[3]
 
 # Filter through all the entries
 filter_3 = filter_2.find_all('p')
-for entry in filter_3:
-    strong_tags = entry.find_all('strong')
+
+for entry in filter_3[3:]:
     
-    if strong_tags:
-        # Name
-        possible_name = strong_tags[0].text
-        if ',' in possible_name:
-            # Stored in possible_name var
-            pass
+    # Extract Names
+    name = entry.find('strong')
+    if name:
+        name = name.get_text(strip = True)
